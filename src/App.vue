@@ -1,16 +1,13 @@
 <template>
   <div id="app">
-    <hello-world></hello-world>
+  <router-view></router-view>
   </div>
   
 </template>
 
 <script setup>
-import HelloWorld from './components/HelloWorld';
-export default  {
-  
-  components: HelloWorld,
-};
+
+
 
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
